@@ -1,0 +1,67 @@
+//import React,{ useState } from "react";
+/*
+function Candidates_show(){
+function candidates_array(){
+    var array=[{name:"Candidate 1", value:1},
+    {name:"Candidate 2", value:2},
+    {name:"Candidate 3", value:3},
+    {name:"Candidate 4", value:4},
+    {name:"Candidate 5", value:5},
+]; //here we will use database
+    return array;
+}
+
+
+function ViewCandidate(props1){
+    const [Candidate,setCandidate]=useState("");
+    var arr=candidates_array();
+    if(props1.agenda===1)
+    setCandidate(arr[0].name);
+    if(props1.agenda===2)
+    setCandidate(arr[1].name);
+    if(props1.agenda===3)
+    setCandidate(arr[2].name);
+    if(props1.agenda===4)
+    setCandidate(arr[3].name);
+    if(props1.agenda===5)
+    setCandidate(arr[4].name);
+return Candidate;
+}*/
+
+
+    //var arr;
+   // arr= candidates_array();
+   
+  /*  return(
+        <div>
+        <div>
+        <div>
+            <h2>Candidates</h2>
+            <p>
+            Click on the name of a candidate to view their agenda and vote.<br/>
+            Go through the agendas thoroughly before voting.<br/>
+            <strong>Your vote matters!</strong>
+            </p>
+        </div>
+        <div>
+            {arr.forEach((x)=>{
+               return( <div> 
+                <img src="assets/Person.png" alt="Candidate's Image"/>
+                <p>{x.name}</p>
+                <button type="button" class="btn btn-light" value={x.value} name={x.name} onClick={ViewCandidate}>View Agenda</button>
+                <button type="button" class="btn btn-success">Vote</button>
+                </div>);
+                
+            })}
+            </div>
+        </div>
+        <div>
+            <img src="assets/Person.png" alt="Candidate's Image"/>
+            <p>{ViewCandidate()}</p>
+            <button type="button" class="btn btn-light">View Agenda</button>
+            <button type="button" class="btn btn-danger">Remove Vote</button>
+        </div>
+        </div>
+    )
+}
+export default Candidates_show;*/
